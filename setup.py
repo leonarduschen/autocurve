@@ -25,5 +25,5 @@ setup(
 
     ],
     tests_require=['pytest'],
-    packages=find_packages(exclude=('tests', 'docs')),
+    packages=find_packages(exclude=('tests', 'docs', 'example')),
 )
