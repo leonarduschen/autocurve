@@ -1,7 +1,6 @@
-
 from setuptools import setup, find_packages
 
-with open("README.md") as fh:
+with open('README.md', 'r') as fh:
     long_description = fh.read()
 
 setup(
@@ -27,5 +26,4 @@ setup(
     ],
     tests_require=['pytest'],
     packages=find_packages(exclude=('tests', 'docs')),
-    entry_points={'console_scripts': ['cmdchess=cmdchess:play']},
 )
